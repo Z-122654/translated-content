@@ -68,7 +68,7 @@ typeof foo; // 返回 'object'
 ```js
 const firstString = "2 + 2"; //创建一个字符串字面量
 const secondString = new String("2 + 2"); // 创建一个字符串对象
-eval(firstString); // 返回数字 4
+eval(firstString); // 返回字符串"2 + 2"
 eval(secondString); // 返回包含 "2 + 2" 的字符串对象
 ```
 
